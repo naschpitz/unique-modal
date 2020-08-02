@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { ExampleComponent } from '@naschpitz/unique-modal'
-import '@naschpitz/unique-modal/dist/index.css'
+import UniqueModal, {UniqueModalController} from '@naschpitz/unique-modal'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  setTimeout(() => {
+    UniqueModalController.open(<div>Modal successfully opened.</div>)
+  }, 2000);
+
+  return <UniqueModal/>
 }
 
 export default App
