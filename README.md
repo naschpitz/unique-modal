@@ -12,6 +12,7 @@ npm install --save @naschpitz/unique-modal
 
 ## Usage
 
+This code will open a modal after 2 seconds and then close it after 8 seconds.
 ```jsx
 import React from 'react';
 
@@ -24,7 +25,7 @@ const App = () => {
 
     setTimeout(() => {
         UniqueModalController.close();
-    }, 8000);
+    }, 10000);
 
     return <UniqueModal/>
 }
