@@ -13,16 +13,19 @@ npm install --save @naschpitz/unique-modal
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react';
 
-import MyComponent from '@naschpitz/unique-modal'
-import '@naschpitz/unique-modal/dist/index.css'
+import UniqueModal, {UniqueModalController} from '@naschpitz/unique-modal';
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  setTimeout(() => {
+    UniqueModalController.open(<div>Modal successfully opened.</div>)
+  }, 2000);
+
+  return <UniqueModal/>
 }
+
+export default App
 ```
 
 ## License
