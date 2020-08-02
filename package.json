@@ -5,8 +5,8 @@
   "author": "Bruno Naschpitz",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/naschpitz/unique-modal.git"
+    "type": "git",
+    "url": "https://github.com/naschpitz/unique-modal.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
