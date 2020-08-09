@@ -3,8 +3,6 @@ import Modal from 'react-modal';
 
 import UniqueModalController from '../controller/controller.js';
 
-import './uniqueModal.css';
-
 const defaultStyle = {
     content: {
         top        : '50%',
