@@ -16,7 +16,7 @@ This code will open a modal after 2 seconds and then close it after 8 seconds.
 ```jsx
 import React from 'react';
 
-import UniqueModal, {UniqueModalController} from '@naschpitz/unique-modal';
+import {UniqueModal, UniqueModalController} from '@naschpitz/unique-modal';
 
 const App = () => {
     setTimeout(() => {
