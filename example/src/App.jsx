@@ -1,6 +1,6 @@
 import React from 'react';
 
-import UniqueModal, {UniqueModalController} from '@naschpitz/unique-modal';
+import {UniqueModal, UniqueModalController} from '@naschpitz/unique-modal';
 
 const App = () => {
     setTimeout(() => {
@@ -11,7 +11,7 @@ const App = () => {
         UniqueModalController.close();
     }, 8000);
 
-  return <UniqueModal/>
+    return <UniqueModal/>
 }
 
 export default App
