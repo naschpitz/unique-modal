@@ -55,7 +55,7 @@ export default class UniqueModal extends Component {
         const data = this.state.data;
 
         return (
-            <Modal isOpen={this.state.isOpen} style={modalStyle}>
+            <Modal isOpen={this.state.isOpen} style={modalStyle} ariaHideApp={false}>
                 {component ? React.cloneElement(component, data) : null}
             </Modal>
         );
